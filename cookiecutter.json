@@ -1,0 +1,14 @@
+{
+    "plugin_name": "Plugin 01",
+    "plugin_slug": "{{ cookiecutter.plugin_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+    "plugin_url": "http://example.com/plugin-name-uri/",
+    "plugin_descripcion": "An amazing plugin!",
+    "plugin_version": "1.0",
+    "author_name": "GLombardo",
+    "open_source_license": [
+        "MIT",
+        "BSD",
+        "GPLv3",
+        "Not open source"
+      ]
+}
