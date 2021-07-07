@@ -29,7 +29,7 @@ $ pip install cookiecutter
 2. Run against this repo
 
 ```
-$ cookiecutter https://github.com/gianfrancolombardo/cookiecutter-django-api
+$ cookiecutter https://github.com/gianfrancolombardo/cookiecutter-wordpress-plugin
 ```
 
 ## Development
