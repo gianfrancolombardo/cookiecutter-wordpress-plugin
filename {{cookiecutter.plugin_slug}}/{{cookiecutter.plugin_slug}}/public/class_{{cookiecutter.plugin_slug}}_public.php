@@ -89,4 +89,14 @@ class {{cookiecutter.plugin_slug.capitalize()}}_Public {
 
 	}
 
+	/**
+	 * Register all public shortcodes.
+	 *
+	 * @since    1.0.0
+	 */
+	public function register_shortcodes()
+	{
+		/* add_shortcode('custom_shortcode', array($this, 'function_name')); */
+	}
+
 }
